@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,AAAA,KAAK,CAAC;EACF,uBAAuB,CAAA,SAAC;EACxB,sBAAsB,CAAA,OAAC;EACvB,uBAAuB,CAAA,OAAC;EACxB,cAAc,CAAA,QAAC;EACf,YAAY,CAAA,QAAC;EACb,iBAAiB,CAAA,QAAC;CACjB",
     "sources": [
-        "../sass/main.scss"
+        "../sass/main.scss",
+        "../sass/utils/_veriables.scss"
     ],
     "names": [],
     "file": "main.css"

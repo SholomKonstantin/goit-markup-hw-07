@@ -27,7 +27,8 @@
     .our-team, 
     .container,
     .clients-container,
-    .img-container { width: 1200px;
+    .img-container,
+    .main-portfolio { width: 1200px;
         padding-left: 15px;
         padding-right: 15px;
         margin-left: auto;
@@ -181,13 +182,13 @@
     
     
     /*hero*/
-    .hero > div {
-        display: block;
+    
+    
+    
+    .overlay {  
+        width: 696px;
+        margin: 0 auto;
     }
-    
-    
-    .overlay {  width: 696px;
-        margin: 0 auto;}
     
     .hero {max-width: 1600px;
         height: 600px;
@@ -211,31 +212,38 @@
         
     }
     
-    
-    
-    .slogan{
-        margin: 0 0 30px 0;
+    .slogan-title{   
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 696px;
+        margin-top: 0;
+        margin-bottom: 30px;
+      
         color: var(--main-background-color);
-        
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
-    
-        text-transform: uppercase;}
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        text-align: center;
+    }
     
     .button-studio {
      display: inline-block;
      min-width: 200px;
-    border-radius: 4px;
-    padding: 10px 32px;
-    font-weight: 700; 
-    font-size: 16px;
+     border-radius: 4px;
+     padding: 10px 32px;
+     font-weight: 700; 
+     font-size: 16px;
      line-height: 1.9;
      text-decoration: none;
      text-align: center;
      color: var(--main-background-color);
-    background: var(--accent-color);
-        }
+     background: var(--accent-color);
+    }
+
+    
     
     
     /*Features*/
@@ -329,7 +337,8 @@
         margin-top: 0;
         font-size: 36px;
         line-height: 1.17;
-        text-align: center;}
+        text-align: center;
+    }
     
         .product {   
             display: flex; 
@@ -658,16 +667,11 @@
     
         color: rgba(255, 255, 255, 0.6);
     }
-        /*Hero-portf */
+ /*Hero-portf */
     
-        /*Buttons section */
+/*Buttons section */
     
-        .main-portfolio { width: 1200px;
-            padding-left: 15px;
-            padding-right: 15px;
-            margin-left: auto;
-            margin-right: auto;
-        }
+        
     
         .buttons,
         .current-button  { 
@@ -709,7 +713,7 @@
         margin-left: auto;
         margin-right: auto;}
     
-    
+   /*Our projects */
     
             .projects {
                 display: flex;
@@ -772,7 +776,7 @@
                 ;
             }
             
-            /* Project-overlay */
+ /* Project-overlay */
     .description {
         position: relative;
     
@@ -813,7 +817,7 @@
         transform: translateY(0);
     }
     
-    /* Project-names */
+/* Project-names */
     .project-name-container {
         padding: 20px 24px;
     }
