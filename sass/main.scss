@@ -1,2 +1,11 @@
-//UTILS
-@import "./utils/veriables" ; 
+@import "./utils/variables";
+//LAYOUT
+@import "./layout/header";
+@import "./layout/hero" ; 
+@import "./layout/What\ are\ we\ doing";
+@import "./layout/Our\ team\ section" ;
+@import "./layout/Regular\ customers";
+@import "./layout/footer";
+@import "./layout/hero-portfo\(buttons\).scss";
+@import "./layout/Our\ projects\(portfo\)";
+@import "./layout/backdrop" ;
