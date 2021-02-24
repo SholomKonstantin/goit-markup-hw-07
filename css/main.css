@@ -133,6 +133,13 @@ a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.logo-title,
+.list-nav,
+.head-link {
+  --main-color: #212121 ;
+}
+
+
 .list-nav,
 .head-link,
 .auth-nav,
@@ -155,11 +162,6 @@ a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.logo-title,
-.list-nav,
-.head-link {
-  --main-color: #212121 ;
-}
 
 .item {
   margin-right: 50px;
