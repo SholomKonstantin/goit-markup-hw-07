@@ -184,7 +184,7 @@ header {
 .logo-title,
 .list-nav,
 .head-link {
-  --main-color: #212121 ;
+  color: #212121;
 }
 
 .item {
