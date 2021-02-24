@@ -133,15 +133,8 @@ a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.logo-title,
 .list-nav,
-.head-link {
-  color: #212121 ;
-}
-
-
-
-
+.head-link,
 .auth-nav,
 .contacts {
   display: flex;
@@ -162,6 +155,11 @@ a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.logo-title,
+.list-nav,
+.head-link {
+  --main-color: #212121 ;
+}
 
 .item {
   margin-right: 50px;
@@ -609,13 +607,14 @@ a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-icon-link:hover, .footer-icon-link:focus {
-  background-color: var(--accent-color);
-}
-
 .footer-social-icon {
   width: 20px;
   height: 20px;
+}
+
+.footer-icon-link:hover,
+.footer-icon-link:focus {
+  background-color: var(--accent-color);
 }
 
 .subscribe-btn {
