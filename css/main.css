@@ -136,12 +136,12 @@ a {
 .logo-title,
 .list-nav,
 .head-link {
-  --main-color: #212121 ;
+  color: #212121 ;
 }
 
 
-.list-nav,
-.head-link,
+
+
 .auth-nav,
 .contacts {
   display: flex;
