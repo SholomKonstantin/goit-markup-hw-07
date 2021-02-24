@@ -88,6 +88,16 @@ header {
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
 
+.list-nav,
+.head-link ,
+.auth-nav,
+.contacts {display: flex;
+     font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    color: var(--secondary-color);
+}
 
 .contacts {
     display: flex;
@@ -103,7 +113,7 @@ header {
 
 .logo-title,
 .list-nav,
-.head-link { color:black;}
+.head-link { --main-color: #212121 }
 
 .item { margin-right: 50px; 
 position: relative;}
